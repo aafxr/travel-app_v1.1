@@ -1,0 +1,8 @@
+.round-button{
+    border: none;
+    box-shadow: none;
+}
+
+.round-button .ant-wave{
+    display: none;
+}

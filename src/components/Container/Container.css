@@ -1,0 +1,10 @@
+.container{
+    position: relative;
+    padding-left: var(--padding-regular);
+    padding-right: var(--padding-regular);
+    pointer-events: none;
+}
+
+.container > *{
+    pointer-events: all;
+}

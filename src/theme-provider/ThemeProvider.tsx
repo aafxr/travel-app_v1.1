@@ -13,7 +13,7 @@ export default function ThemeProvider({children}: React.PropsWithChildren) {
 
         components: {
             Button: {
-                borderRadius: brSmall,
+                borderRadius: 8,
                 paddingContentVertical: 16,
                 paddingContentHorizontal: 0,
             },
@@ -24,10 +24,11 @@ export default function ThemeProvider({children}: React.PropsWithChildren) {
             }
         },
         token: {
-            motion: false,
+            // motion: false,
             colorPrimary: primaryColor,
             colorBgBase: colorBG,
             borderRadius: brRegular,
+            fontSize: 16,
         }
     }
 

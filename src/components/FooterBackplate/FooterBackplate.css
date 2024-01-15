@@ -1,0 +1,8 @@
+.footer-backplate{
+    position: relative;
+    padding: 9px 20px;
+}
+
+.footer-backplate.shadow{
+    box-shadow: 0 -10px 30px 0 rgba(0, 0, 0, 0.10);
+}

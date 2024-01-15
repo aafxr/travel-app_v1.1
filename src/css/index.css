@@ -1,1 +1,5 @@
 @import './vars.css';
+
+.ant-wave{
+    display: none!important;
+}
