@@ -7,6 +7,7 @@ import AppLayout from "../components/AppLayout/AppLayout";
 import FooterBackplate from "../components/FooterBackplate/FooterBackplate";
 import Container from "../components/Container/Container";
 import FooterButton from "../components/FooterButton/FooterButton";
+import PlaceCard from "../components/PlaceCard/PlaceCard";
 
 export default function Main() {
 
@@ -15,12 +16,12 @@ export default function Main() {
             <AppHeader>Main header</AppHeader>
             <AppContent>
                 <Container>
-
+                    <PlaceCard/>
                 </Container>
             </AppContent>
             <AppFooter>
                 <FooterBackplate shadow>
-                    <FooterButton >Построить маршрут</FooterButton>
+                    <FooterButton>Построить маршрут</FooterButton>
                 </FooterBackplate>
             </AppFooter>
         </AppLayout>

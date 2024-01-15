@@ -45,7 +45,7 @@ export type PlaceType = {
     day?: number,
     name: string,
     photos?: string[],
-    formatted_addres: string,
+    formatted_address: string,
     location: [number, number],
     coords: [number, number],
     time_start: Date,
