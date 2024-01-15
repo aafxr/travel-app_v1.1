@@ -1,0 +1,12 @@
+:root{
+    --vh: 1vh;
+
+    --border-radius-small: 10px;
+    --border-radius-regular: 16px;
+
+
+
+    --color-text: #000;
+    --color-background: #FFF;
+    --color-primary: #FF8E09;
+}
