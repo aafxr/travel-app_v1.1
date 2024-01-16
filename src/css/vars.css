@@ -6,9 +6,12 @@
 
     --padding-regular: 20px;
 
+    --icon-size: 24px;
+
 
 
     --color-text: #000;
     --color-background: #FFF;
     --color-primary: #FF8E09;
+    --color-unactive: #A1A1A1;
 }

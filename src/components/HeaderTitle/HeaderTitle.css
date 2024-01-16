@@ -1,0 +1,22 @@
+.header-title{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.header-title-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    flex: none;
+}
+
+.header-title-center{
+    flex: 1 1;
+    padding: 0 4px;
+    text-align: center;
+    font-weight: 700;
+}

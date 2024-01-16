@@ -64,4 +64,5 @@ html, body {
     font-size: inherit;
     line-height: inherit;
     box-sizing: border-box;
+    background-color: inherit;
 }
